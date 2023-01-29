@@ -36,12 +36,12 @@
         </ul>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <span class="visually-hidden">
-                Главная
-              </span>
-            </a>
-            <input type="search">
+            <a class="navigation-item" href="#"></a>
+            <form>
+              <input type="search">
+            </form>
+          </li>
+
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
@@ -51,9 +51,11 @@
             </a>
 
           </li>
-          <a class="navigation-item" href="#">
-            <button>ХОЧУ СЮДА!</button>
-          </a>
+          <li class="navigation-item">
+            <button class="navigation-link" href="#">
+              <label>ХОЧУ СЮДА!</label>
+            </button>
+
 
 
 
@@ -78,7 +80,7 @@
       </ul>
 
       <form class="catalog-infrastructure" action="#" method="get">
-        <section class="catalog-infrastructure">
+
           <h2>Инфраструктура:</h2>
           <fieldset class="catalog-infrastructure-group">
             <legend class="catalog-infrastructure-title">Бассейн</legend>
@@ -246,7 +248,9 @@
           <p class="e-mail">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form>
             <input type="email" value="Ваш e-mail">
-            <button>ПОДПИСАТЬСЯ</button>
+            <button type="submit" name="subscribe-form" value="Ваш e-mail" method="post">
+              <label>"ПОДПИСАТЬСЯ"</label>
+            </button>
           </form>
         </section>
 
