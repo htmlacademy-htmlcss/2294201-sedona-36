@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "PT Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.page-header {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.navigation-link {
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-style: bold;
+    line-height: 24px;
+    align: left;
+    vertical-align: top;
+    color: #000000;
+}
+
+.main-index {
+    color: #000000;
+    background-image: url(../images/images_index/index_background\(1\).jpg);
+    background-color: #ffffff;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.advantages-list {
+    text-align: center;
+}
+
+.advantages-title {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.services {
+    vertical-align: top;
+    font-style: bold;
+}
+
+.advantages-title {
+    font-style: regular;
+}
+
+.subscribe {
+
+    background-image: url(../images/images_index/bacground_index.jpg);
+}
+
+.page-footer {
+    background: #ffffff;
+    background-repeat: no-repeat;
+
+}
+
+.footer-contact {
+    font-size: 40px;
+    line-height: 40px;
+    align: center;
+    vertical-align: top;
+    color: #000000;
+}
+
+.catalog-infrastructure {
+    color: #ffffff background-image: url(../images/images_catalog/background_catalog);
+}
+
+.select-catalog {
+    font-style: bold;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.hotel-card-title {
+    font-style: bold;
+    font-size: 24px;
+    line-height: 28px;
+    line-height: 90%;
+    align: left;
+    color: #000000;
+}
+
+.hotel-card-price {
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 90%;
+    align: right;
+    color: #333333;
+}
+
+.hotel-card-type .hotel-card-button {
+    font-style: bold;
+    font-size: 16px;
+    line-height: 20px;
+    line-height: 97%;
+    align: center;
+    color: #ffffff;
+}
+
+.e-mail {
+    font-style: bold;
+    font-size: 30px;
+    line-height: 36px;
+    line-height: 93%;
+    align: left;
+}
