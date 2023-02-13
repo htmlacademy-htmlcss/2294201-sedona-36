@@ -1,49 +1,43 @@
 @font-face {
     font-family: "PT Sans";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #333333;
     src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: "PT Sans";
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
     src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
     font-display: swap;
 }
 
 body {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: #000000;
     background-color: #ffffff;
 }
 
-.page-header {
-    color: #000000;
-    background-color: #ffffff;
+.hero {
+    background-image: url("../images/images_index/index_background.jpg");
 }
 
 .navigation-link {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 20px;
-    font-style: bold;
     line-height: 24px;
-    align: left;
-    vertical-align: top;
     color: #000000;
+    text-decoration: none;
+
 }
 
 .main-index {
     color: #000000;
-    background-image: url(../images/images_index/index_background\(1\).jpg);
+    background-image: url(../images/images_index/index_background/(1).jpg);
     background-color: #ffffff;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -53,10 +47,27 @@ body {
     text-align: center;
 }
 
+.advantages-item-1 {
+    color:#ffffff;
+    background-color: #82B3D3;
+}
+
+.advantages-item-2 {
+    background-color: rgba (131, 179, 211, 0.12);
+}
+
+.advantages-item-3 {
+    background-color: rgba(131, 179, 211, 0.2);
+}
+
 .advantages-title {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     font-size: 24px;
     line-height: 28px;
+}
+
+.advantages-description {
+    color:#333333;
 }
 
 .services {
@@ -65,7 +76,7 @@ body {
 }
 
 .advantages-title {
-    font-style: regular;
+
 }
 
 .subscribe {
@@ -88,45 +99,38 @@ body {
 }
 
 .catalog-infrastructure {
-    color: #ffffff background-image: url(../images/images_catalog/background_catalog);
+    color: #ffffff;
+    background-image: url(../images/images_catalog/background_catalog);
 }
 
 .select-catalog {
-    font-style: bold;
     font-size: 30px;
     line-height: 36px;
 }
 
 .hotel-card-title {
-    font-style: bold;
     font-size: 24px;
     line-height: 28px;
-    line-height: 90%;
-    align: left;
     color: #000000;
 }
 
 .hotel-card-price {
     font-size: 18px;
     line-height: 21px;
-    line-height: 90%;
-    align: right;
     color: #333333;
 }
 
 .hotel-card-type .hotel-card-button {
-    font-style: bold;
     font-size: 16px;
     line-height: 20px;
-    line-height: 97%;
-    align: center;
     color: #ffffff;
 }
 
 .e-mail {
-    font-style: bold;
     font-size: 30px;
     line-height: 36px;
-    line-height: 93%;
-    align: left;
+}
+
+.subscribe {
+    background-image: url("../images/images_index/muntin.jpg.jpg");
 }
