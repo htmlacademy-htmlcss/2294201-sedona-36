@@ -15,7 +15,7 @@
 }
 
 html {
-    height: 100px;
+    height: 100%;
 }
 
 body {
@@ -55,7 +55,7 @@ body {
 }
 
 .main-container {
-flex-grow: 1;
+    flex-grow: 1;
 }
 
 .navigation-link {
@@ -64,7 +64,6 @@ flex-grow: 1;
     line-height: 24px;
     color: #000000;
     text-decoration: none;
-
 }
 
 .main-index {
@@ -73,6 +72,23 @@ flex-grow: 1;
     background-color: #ffffff;
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+.heading {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.heading-text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
 }
 
 .advantages-container {
