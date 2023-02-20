@@ -249,11 +249,14 @@ li.services-item {
 
 .hotel-list {
     display: flex;
-    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 20px;
 }
 
 .holet-card {
-    flex-gap: 20px;
+    width: calc((100%-40px)/3);
 }
 
 .hotel-card-title {
