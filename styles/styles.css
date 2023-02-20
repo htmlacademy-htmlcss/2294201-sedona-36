@@ -208,11 +208,11 @@ li.services-item {
 }
 
 .inner-header-inner {
-    display: flex;
+
     width: 1200px;
-    height: 412px;
+    min-height: 412px;
     background-image: url(../images/images_catalog/background_mountin.jpg.jpg);
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
     font-weight: 700;
@@ -226,26 +226,34 @@ li.services-item {
     line-height: 24px;
 }
 
+.product-top-group {
+    display: flex;
+
+}
+
 .control {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
 }
 
-.inner-header-inner {
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 78px;
-}
-
-
 .catalog-infrastructure {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .select-catalog {
     font-size: 30px;
     line-height: 36px;
+}
+
+.hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.holet-card {
+    flex-gap: 20px;
 }
 
 .hotel-card-title {
@@ -267,6 +275,10 @@ li.services-item {
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
+}
+
+.pagination {
+    display: flex;
 }
 
 .e-mail {
