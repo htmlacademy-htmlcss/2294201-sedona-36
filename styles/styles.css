@@ -18,6 +18,15 @@ html {
     height: 100%;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
 body {
     font-family: "PT Sans", sans-serif;
     margin: 0;
@@ -117,6 +126,7 @@ box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 .advantages-container {
     width: 940px;
     margin: 0 auto;
+
 }
 
 .advantages-list {
@@ -226,11 +236,6 @@ li.services-item {
     line-height: 24px;
 }
 
-.product-top-group {
-    display: flex;
-
-}
-
 .control {
     font-weight: 400;
     font-size: 18px;
@@ -240,6 +245,13 @@ li.services-item {
 .catalog-infrastructure {
     display: flex;
     flex-wrap: wrap;
+    list-style: none;
+}
+
+.product-top-group {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
 .select-catalog {
@@ -253,10 +265,11 @@ li.services-item {
     padding: 0;
     list-style: none;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .holet-card {
-    width: calc((100%-40px)/3);
+    width: calc((100% - 40px) / 3);
 }
 
 .hotel-card-title {
