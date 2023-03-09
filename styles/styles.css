@@ -79,6 +79,7 @@ body {
   height: 485px;
   background-image: url("../images/images_index/index_background.jpg");
   background-repeat: no-repeat;
+  background-color: #ffffff;
   justify-content: center;
 }
 
@@ -295,6 +296,7 @@ li.services-item {
 .hotel-list {
   display: flex;
   margin: 0;
+  padding: 0;
   list-style: none;
   gap: 20px;
   flex-wrap: wrap;
