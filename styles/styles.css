@@ -15,7 +15,6 @@
 }
 
 html {
-  width: 1280px;
   height: 100%;
   background-color: #F2F2F2;
 }
@@ -285,7 +284,6 @@ li.services-item {
 .select-catalog {
   font-size: 30px;
   line-height: 36px;
-  display: flex;
   list-style: none;
 }
 
