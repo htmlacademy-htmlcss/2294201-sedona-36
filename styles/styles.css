@@ -67,17 +67,28 @@ body {
   margin: 0 auto;
 }
 
+.navigation-logo {
+  padding-left: 70px;
+}
+
 .navigation-list {
   display: flex;
   width: 1200px;
   padding: 0;
+  padding-left: 30px;
   margin: 0;
   list-style: none;
+}
+
+.navigation-item{
+  padding-left: 15px;
+  padding: 20px 16px;
 }
 
 .navigation-user {
   max-width: 250px;
   margin-left: auto;
+  padding-right: 70px;
 }
 
 .hero {
@@ -242,8 +253,15 @@ li.services-item {
   text-align: center;
 }
 
-.inner-header {
+.Heading_1 {
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 78px;
+}
 
+.inner-header {
   width: 1200px;
   min-height: 412px;
   background-image: url(../images/images_catalog/background_mountain.jpg);
@@ -251,6 +269,7 @@ li.services-item {
   background-repeat: no-repeat;
   color: #ffffff;
   font-weight: 700;
+  padding: 35px 70px 70px 70px;
 }
 
 .legend {
@@ -289,6 +308,7 @@ li.services-item {
 }
 
 .select-catalog {
+  width: 1200px;
   font-size: 30px;
   line-height: 36px;
   list-style: none;
