@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="container wrapper">
       <header class="page-header">
         <nav class="navigation">
           <a class="navigation-logo" href="index.html">
@@ -117,10 +117,10 @@
             </fieldset>
             <div>
               <div><!--МЕСТО ПОД СТОИМОСТЬ--></div>
-              <ul class="button">
-                <li><button type="submit">Применить</button></li>
-                <li><button type="reset">Сбросить</button></li>
-              </ul>
+              <div class="button">
+                <div><button type="submit">Применить</button></div>
+                <div><button type="reset">Сбросить</button></div>
+              </div>
             </div>
           </form>
 
@@ -253,8 +253,8 @@
           <p>Только полезная информация и никакого спама, честное бойскаутское!
           </p>
           <form action="#" method="post">
-            <label>
-              <input type="email" placeholder="ваш e-mail" required>
+            <input type="email" placeholder="ваш e-mail" id="email" required>
+            <label class="visually-hidden" for="email">
             </label>
             <button type="submit" name="subscribe-form" value="Ваш e-mail">
               <span>"Подписаться"</span>
@@ -263,7 +263,7 @@
           </form>
 
       </main>
-    </div>
+
 
     <footer class="page-footer">
       <ul class="footer-social-list">
@@ -295,4 +295,6 @@
       </a>
 
     </footer>
+
+    </div>
   </body>

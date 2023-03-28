@@ -41,6 +41,13 @@ body {
   background-color: #ffffff;
 }
 
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
