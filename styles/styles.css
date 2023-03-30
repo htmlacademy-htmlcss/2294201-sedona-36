@@ -48,6 +48,10 @@ body {
   padding-right: 40px;
 }
 
+.page-header {
+  padding: 0px 70px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -80,7 +84,7 @@ body {
   list-style: none;
 }
 
-.navigation-item{
+.navigation-item {
   padding-left: 15px;
   padding: 20px 16px;
 }
@@ -228,7 +232,7 @@ li.services-item {
 
 .subscribe-form_2 {
   text-transform: uppercase;
-  color:#000000;
+  color: #000000;
 }
 
 .appointment {
@@ -236,11 +240,15 @@ li.services-item {
 }
 
 .page-footer {
+  width: 100%;
+  max-width: 1200px;
   display: flex;
-  width: 940px;
   margin: 0 auto;
   list-style: none;
   text-decoration: none;
+  padding: 45px 420px 35px 448px;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .footer-social-list {
@@ -248,17 +256,20 @@ li.services-item {
   text-decoration: none;
 }
 
+.footer-social-item {}
+
 .contact {
   flex-grow: 1;
   text-align: center;
 }
 
 .Heading_1 {
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 78px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  margin-bottom: 299px;
 }
 
 .inner-header {
