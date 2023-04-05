@@ -1,3 +1,8 @@
+*, ::before,
+::after {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "PT Sans";
   src: url("../fonts/ptsans-400.woff2") format("woff2");
@@ -20,7 +25,8 @@ html {
 }
 
 .container {
-  width: 1200px;
+  width: 1280px;
+  padding: 0 40px;
   margin: 0 auto;
   background-color: #ffffff;
   display: flex;
@@ -41,15 +47,9 @@ body {
   background-color: #ffffff;
 }
 
-.wrapper {
-  max-width: 1200px;
-  width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
 .page-header {
   padding: 0px 70px;
+  width: 1200px;
 }
 
 .visually-hidden {
@@ -67,12 +67,12 @@ body {
 
 .navigation {
   display: flex;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .navigation-logo {
-  padding-left: 70px;
+
 }
 
 .navigation-list {
@@ -126,10 +126,17 @@ body {
 }
 
 .heading {
+  padding: 70px 0;
+}
+
+.heading h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 25px;
 }
 
 .heading-text {
@@ -139,6 +146,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin: 0;
 }
 
 .advantages-list {
@@ -246,7 +254,8 @@ li.services-item {
   margin: 0 auto;
   list-style: none;
   text-decoration: none;
-  padding: 45px 420px 35px 448px;
+  padding-left: 80px;
+  padding-right: 70px;
   align-items: center;
   box-sizing: border-box;
 }
@@ -269,7 +278,6 @@ li.services-item {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
-  margin-bottom: 299px;
 }
 
 .inner-header {
@@ -281,6 +289,7 @@ li.services-item {
   color: #ffffff;
   font-weight: 700;
   padding: 35px 70px 70px 70px;
+  box-sizing: border-box;
 }
 
 .legend {
@@ -303,10 +312,13 @@ li.services-item {
 
 .catalog-infrastructure {
   list-style: none;
+  border: none;
+
 }
 
 .product-top-group {
   list-style: none;
+  border: none;
 }
 
 .button {
