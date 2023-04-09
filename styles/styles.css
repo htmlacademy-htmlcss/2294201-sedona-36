@@ -127,6 +127,12 @@ body {
 
 .heading {
   padding: 70px 0;
+
+}
+
+.heading2 {
+  text-transform: uppercase;
+  padding-top: 96px;
 }
 
 .heading h2 {
@@ -147,6 +153,7 @@ body {
   line-height: 26px;
   text-align: center;
   margin: 0;
+  text-transform: none;
 }
 
 .advantages-container {
@@ -154,8 +161,12 @@ body {
 }
 
 .block {
-  padding: 25px;
+  padding: 112px;
   text-align: center;
+}
+
+.block2 {
+padding: 102px;
 }
 
 .advantages-list {
@@ -228,15 +239,26 @@ text-transform: uppercase;
   text-align: center;
 }
 
-li.services-item {
+.services-item {
   width: 400px;
-}
+  max-height: 385px;
+  padding: 183px 85px;
+  }
+
+ */ .block3 {
+    padding: 183px 85px;
+  }
+
+  .item1 {
+  background: rgba(131, 179, 211, 0.12);
+  }
 
 .services-description {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  text-transform: none;
 }
 
 .subscribe {
@@ -263,6 +285,8 @@ li.services-item {
 
 .appointment {
   text-align: center;
+  min-height: 239px;
+  padding: 96px 451px;
 }
 
 .page-footer {
