@@ -92,12 +92,17 @@ body {
   display: flex;
   background: #756157;
   color: #ffffff;
-  padding: 8px 34px;
+  padding: 0;
+  height: 36px;
+  min-width: 160px;
   text-decoration: none;
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
 }
 
 .navigation-user {
@@ -165,6 +170,8 @@ body {
   text-align: center;
   margin: 0;
   text-transform: none;
+  width: 592px;
+  height: 52px;
 }
 
 .advantages-container {
@@ -277,8 +284,9 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  background-image: url(../images/images_index/bacground_index.jpg);
   text-align: center;
+  background-image: url(../images/images_index/mountain.jpg);
+  background-size: 1200px 414px;
   padding: 96px 258px 104px;
   height: 414px;
   text-transform: uppercase;
@@ -291,6 +299,38 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-transform: none;
+}
+
+.subscribeformemail {
+  display: flex;
+}
+
+.subscribeformemail1 {
+  display: flex;
+  width: 452px;
+  height: 52px;
+  padding: 12px 20px;
+  gap: 260px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 4px 0px 0px 4px;
+  border: none;
+}
+
+.subscribeformemail2 {
+  width: 252px;
+  height: 52px;
+  font-family: 'PT Sans';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #82B3D3;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
 }
 
 .subscribe_2 {
@@ -310,6 +350,23 @@ body {
   text-align: center;
   min-height: 239px;
   padding: 96px 451px;
+}
+
+.buttonbasic {
+  background: #756157;
+  width: 376px;
+  height: 52px;
+}
+
+.buttonbasic1 {
+  text-decoration: none;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .page-footer {
