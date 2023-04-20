@@ -170,7 +170,6 @@ body {
   text-align: center;
   margin: 0;
   text-transform: none;
-  width: 592px;
   height: 52px;
 }
 
@@ -356,9 +355,7 @@ body {
   background: #756157;
   width: 376px;
   height: 52px;
-}
 
-.buttonbasic1 {
   text-decoration: none;
   font-family: 'PT Sans';
   font-style: normal;
@@ -368,6 +365,8 @@ body {
   color: #ffffff;
   text-transform: uppercase;
 }
+
+.buttonbasic1 {}
 
 .page-footer {
   width: 100%;
