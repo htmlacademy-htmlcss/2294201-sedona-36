@@ -316,28 +316,43 @@ body {
   font-size: 18px;
   border-radius: 4px 0px 0px 4px;
   border: none;
+  background: #f2f2f2;
+  ;
 }
 
 .subscribeformemail2 {
-  width: 252px;
+  display: flex;
+  width: 452px;
   height: 52px;
+  padding: 12px 20px;
+  gap: 260px;
   font-family: 'PT Sans';
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: #82B3D3;
-  border-radius: 0px 4px 4px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 4px 0px 0px 4px;
   border: none;
+  background: #82B3D3;
+  align-items: center;
+  justify-content: center;
 }
 
-.subscribe_2 {
-  color: #333333;
+.subscribe3 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.subscribe2 {
+  color: #000000;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  background-image: none;
+  background-size: 1200px 414px;
+  padding: 96px 258px 104px;
+  height: 414px;
+  text-transform: uppercase;
 }
 
 .subscribe-form_2 {
