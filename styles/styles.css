@@ -460,7 +460,8 @@ body {
 .catalog {
   display: flex;
   list-style: none;
-  width: 1200px;
+  width: 100%;
+  gap: 80px;
 }
 
 .catalog-infrastructure {
@@ -494,9 +495,8 @@ body {
   padding: 0px;
   gap: 32px;
   width: 191px;
-  height: 104px;
   list-style: none;
-
+  margin-left: 70px;
 }
 
 .button_submit {
@@ -557,12 +557,22 @@ body {
   list-style: none;
   gap: 20px;
   flex-wrap: wrap;
-
+  justify-content: space-between;
 }
 
 .holet-card {
   width: calc((100% - 40px) / 3);
+  display: flex;
+}
 
+.hotel_price {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.hotel-card-link {
+  text-decoration: none;
 }
 
 .hotel-card-title {
@@ -570,6 +580,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #000000;
+  text-decoration: none;
 }
 
 .hotel-card-price {
@@ -579,11 +590,47 @@ body {
   color: #333333;
 }
 
-.hotel-card-type,
-.hotel-card-button {
+.hotel-card-type {
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  background: #756157;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 140px;
+  height: 36px;
+}
+
+.hotel-card-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #82B3D3;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 140px;
+  height: 36px;
+}
+
+.raiting_catalog {
+  display: flex;
+  justify-content: space-between;
+}
+
+.raiting {
+  width: 140px;
+  height: 37px;
+  background: #F2F2F2;
+  border-radius: 4px;
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
 }
 
 .pagination {
