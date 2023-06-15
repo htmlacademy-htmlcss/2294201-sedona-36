@@ -466,6 +466,7 @@ body {
   display: flex;
   list-style: none;
   text-decoration: none;
+  gap: 26px;
 }
 
 .footer-social-item {}
