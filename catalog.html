@@ -74,6 +74,7 @@
               <li class="catalog-infrastructure-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" value="pool" name="infrastructure">Бассейн
+                  <span class="check_box"></span>
                 </label>
 
               </li>
@@ -81,12 +82,14 @@
               <li class="catalog-infrastructure-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" value="parking" name="infrastructure">Парковка
+                  <span class="check_box"></span>
                 </label>
               </li>
 
               <li class="catalog-infrastructure-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" value="wi-fi" name="infrastructure">Wi-Fi
+                  <span class="check_box"></span>
                 </label>
               </li>
             </ul>
@@ -98,18 +101,21 @@
               <li class="product-top-item">
                 <label class="control">
                   <input class="control-input" type="radio" name="top-hotel" value="hotel">Гостиница
+                  <span class="radio"></span>
                 </label>
               </li>
 
               <li class="product-top-item">
                 <label class="control">
                   <input class="control-input" type="radio" name="top-hotel" value="motel">Мотель
+                  <span class="radio"></span>
                 </label>
               </li>
 
               <li class="product-top-item">
                 <label class="control">
                   <input class="control-input" type="radio" name="top-hotel" value="apart">Апартаменты
+                  <span class="radio"></span>
                 </label>
               </li>
             </ul>
@@ -169,12 +175,15 @@
               <p class="hotel-card-price">Гостиница ₽</p>
               <p class="hotel-card-price">От 4000 ₽</p>
             </div>
+            <button class="hotel-card-type">подробнее</button>
+            <button type="button" class="hotel-card-button">в избранное
+            </button>
 
-            <p><button class="hotel-card-type">подробнее</button>
-              <button type="button" class="hotel-card-button">в избранное</button>
-            </p>
             <div class="raiting_catalog">
-              <p class="star-4">4 звезды</p>
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
               <p class="raiting">Рейтинг «8,5»</p>
             </div>
 
@@ -191,11 +200,14 @@
             </div>
 
 
-            <p><button class="hotel-card-type">подробнее</button>
-              <button type="button" class="hotel-card-button">в избранное</button>
-            </p>
+            <button class="hotel-card-type">подробнее</button>
+            <button type="button" class="hotel-card-button">в избранное</button>
+
             <div class="raiting_catalog">
-              <p class="star-4">4 звезды</p>
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
               <p class="raiting">Рейтинг «9,2»</p>
             </div>
 
@@ -211,11 +223,13 @@
               <p class="hotel-card-price">От 2500 ₽</p>
             </div>
 
-            <p><button class="hotel-card-type">подробнее</button>
-              <button type="button" class="hotel-card-button">в избранное</button>
-            </p>
+            <button class="hotel-card-type">подробнее</button>
+            <button type="button" class="hotel-card-button">в избранное</button>
+
             <div class="raiting_catalog">
-              <p class="star-3"><span>3 звезды</span></p>
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
               <p class="raiting">Рейтинг «6,9»</p>
             </div>
 
@@ -231,11 +245,12 @@
               <p class="hotel-card-price">От 1500 ₽</p>
             </div>
 
-            <p><button class="hotel-card-type">подробнее</button>
-              <button type="button" class="hotel-card-button">в избранное</button>
-            </p>
+            <button class="hotel-card-type">подробнее</button>
+            <button type="button" class="hotel-card-button">в избранное</button>
+
             <div class="raiting_catalog">
-              <p class="star-2"><span>2 звезды</span></p>
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
+              <img src="images/images_catalog/Vector_star.svg" width="18" height="17">
               <p class="raiting">Рейтинг «5,0»</p>
             </div>
 
@@ -244,7 +259,7 @@
 
         <ul class="pagination">
           <li class="pagination-item">
-            <a class="pagination-link pagination-current" href="#">1</a>
+            <a class="pagination-link active" href="#">1</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link" href="#">2</a>
@@ -257,7 +272,7 @@
           </li>
           <li class="pagination-item">
             <a class="pagination-link pagination-next" href="#">
-              <span class="visually-hidden">...</span>
+              <span>...</span>
             </a>
           </li>
           <li class="pagination-item">
