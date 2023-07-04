@@ -520,6 +520,7 @@ body {
 }
 
 .control {
+  position: relative;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -535,9 +536,9 @@ body {
 
 .check_box {
   position: absolute;
-  margin-left: -1.2em;
-  width: 1em;
-  height: 1em;
+  left: -12px;
+  width: 26px;
+  height: 26px;
   background-image: url(../images/images_catalog/checkbox.svg);
 }
 
@@ -561,9 +562,9 @@ body {
 
 .radio {
   position: absolute;
-  margin-left: -1.2em;
-  width: 1em;
-  height: 1em;
+  left: -12px;
+  width: 26px;
+  height: 26px;
   background-image: url(../images/images_catalog/radio.svg);
 }
 
