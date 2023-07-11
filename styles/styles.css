@@ -537,8 +537,8 @@ body {
 .check_box {
   position: absolute;
   left: -12px;
-  width: 26px;
-  height: 26px;
+  width: 21px;
+  height: 21px;
   background-image: url(../images/images_catalog/checkbox.svg);
 }
 
@@ -561,19 +561,37 @@ body {
 /*RADIO*/
 
 .radio {
+  display: block;
+  background-color: #FFFFFF;
   position: absolute;
   left: -12px;
-  width: 26px;
-  height: 26px;
-  background-image: url(../images/images_catalog/radio.svg);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  top: -02px;
 }
 
-/* Radio checked*/
+.control-input:checked+.radio {
+ background-color: #000000;
+ border-radius: 10%;
+}
+
+
+/* Radio checked
 .control-input:focus+.radio {
   background-image: url(../images/images_catalog/radio_checked.svg);
 }
 
-/* Radio focused*/
+.control-input:checked+span::after {
+  opacity: 1;
+}
+
+.control-input:checked+span::after {
+  opacity: 1;
+}
+
+
+/* Radio focused
 
 .control-input:checked:focus+.radio {
   background-image: url(../images/images_catalog/radio_focus_checked_true.svg);
@@ -582,7 +600,7 @@ body {
 .control-input:checked:focus+.radio {
   background-image: url(../images/images_catalog/radio_focus_checked_false.svg);
 }
-
+*/
 .catalog {
   display: flex;
   list-style: none;
