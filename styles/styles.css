@@ -594,13 +594,9 @@ body {
 }
 
 
-
-
 /* Radio focused*/
 
-
-
-.control-input:checked:focus+.radio {
+.control-input:focus+.radio {
   background-image: url(../images/images_catalog/radio_focus_checked_false.svg);
 }
 
