@@ -542,6 +542,7 @@ body {
   background-color: #FFFFFF;
   top: -02px;
   cursor: pointer;
+  border-radius: 20%;
 }
 
 /* Checked */
@@ -553,14 +554,8 @@ body {
 /* Focused*/
 
 .control-input:focus+.check_box {
-  background-image: url(../images/images_catalog/checkbox_focus_checked_true.svg);
+outline: 2px solid #82B3D3;
 }
-
-
-.control-input:checked:focus+.check_box {
-  background-image: url(../images/images_catalog/checkbox_focus_checked_false.svg);
-}
-
 
 /*RADIO*/
 
@@ -595,15 +590,10 @@ body {
   opacity: 1;
 }
 
-
 /* Radio focused*/
 
 .control-input:focus+.radio {
-  border: 2px solid #82B3D3;
-}
-
-.control-input:checked:focus+.radio {
-
+  outline: 2px solid #82B3D3;
 }
 
 .catalog {
