@@ -541,6 +541,7 @@ body {
   height: 21px;
   background-color: #FFFFFF;
   top: -02px;
+  cursor: pointer;
 }
 
 /* Checked */
@@ -549,7 +550,7 @@ body {
   background-image: url(../images/images_catalog/checkbox_checked1.svg);
 }
 
-/* Focused
+/* Focused*/
 
 .control-input:focus+.check_box {
   background-image: url(../images/images_catalog/checkbox_focus_checked_true.svg);
@@ -559,7 +560,7 @@ body {
 .control-input:checked:focus+.check_box {
   background-image: url(../images/images_catalog/checkbox_focus_checked_false.svg);
 }
-*/
+
 
 /*RADIO*/
 
@@ -572,6 +573,7 @@ body {
   height: 22px;
   border-radius: 50%;
   top: -02px;
+  cursor: pointer;
 }
 
 .control-input+.radio::after {
@@ -597,9 +599,12 @@ body {
 /* Radio focused*/
 
 .control-input:focus+.radio {
-  background-image: url(../images/images_catalog/radio_focus_checked_false.svg);
+  background-image: url(../images/images_catalog/radio_focus_checked_true.svg);
 }
 
+.control-input:checked:focus+.radio {
+  background-image: url(../images/images_catalog/radio_focus_checked_false.svg);
+}
 
 .catalog {
   display: flex;
@@ -774,6 +779,7 @@ body {
   line-height: 20px;
   color: #ffffff;
   background: #756157;
+  border-style: none;
   border-radius: 4px;
   text-transform: uppercase;
   text-align: center;
@@ -787,6 +793,7 @@ body {
   line-height: 20px;
   color: #ffffff;
   background: #82B3D3;
+  border-style: none;
   border-radius: 4px;
   text-transform: uppercase;
   text-align: center;
