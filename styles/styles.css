@@ -643,7 +643,7 @@ body {
   border: none;
 }
 
-.catalog-filter-title{
+.catalog-filter-title {
   padding-bottom: 32px;
 }
 
@@ -666,7 +666,7 @@ body {
   width: 20px;
   height: 20px;
   background: #ffffff;
-  border: 2px solid #242424;
+  border: none;
   border-radius: 25%;
   cursor: pointer;
 }
@@ -694,7 +694,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 48px;
-  }
+}
 
 .catalog-filter-label {
   display: flex;
@@ -718,8 +718,6 @@ body {
   appearance: none;
   margin: 0;
 }
-
-
 
 .button {
   display: flex;
@@ -745,6 +743,9 @@ body {
   border: 0;
   text-transform: uppercase;
   color: #FFFFFF;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .button_reset {
@@ -760,6 +761,9 @@ body {
   background-color: transparent;
   text-transform: uppercase;
   color: #FFFFFF;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .catalog_search {

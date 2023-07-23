@@ -59,7 +59,7 @@
         <h1 class="Heading_1">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li>
-            <a href="#">
+            <a href="#" style="text-decoration: none;">
               <img class="home" src="images/images_catalog/Vector_home.svg" width="12" height="12" alt="Иконка Домик">
               <img class="home" src="images/images_catalog/Vector_.svg" width="12" height="12" alt="Иконка Стрелочка">
             </a>
@@ -134,10 +134,12 @@
             <legend class="catalog-filter-title">Стоимость, ₽:</legend>
             <div class="range-wrapper-inputs">
               <label class="catalog-filter-label">
-                <input class="range-input" type="number" name="min-price" placeholder="от">
+                <input class="range-input" type="number" value="0" name="min-price">
+                <span>от</span>
               </label>
               <label class="catalog-filter-label">
-                <input class="range-input" type="number" name="max-price" placeholder="до">
+                <input class="range-input" type="number" value="9000" name="max-price">
+                <span class="price_range">до</span>
               </label>
             </div>
 
