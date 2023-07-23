@@ -399,6 +399,8 @@ body {
 .subscribe3 {
   color: #ffffff;
   text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .subscribe2 {
@@ -472,7 +474,14 @@ body {
   gap: 26px;
 }
 
-.footer-social-item {}
+.footer-social-list a:hover {
+  opacity: 1;
+}
+
+.footer-social-list a:focus-visible {
+  outline: 2px solid blue;
+}
+
 
 .contact {
   font-family: 'PT Sans';
@@ -517,7 +526,9 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
+  padding-left: 0;
 }
+
 
 .control {
   position: relative;
@@ -554,7 +565,7 @@ body {
 /* Focused*/
 
 .control-input:focus+.check_box {
-outline: 2px solid #82B3D3;
+  outline: 2px solid #82B3D3;
 }
 
 /*RADIO*/
@@ -600,7 +611,7 @@ outline: 2px solid #82B3D3;
   display: flex;
   list-style: none;
   width: 100%;
-  gap: 80px;
+  gap: 40px;
 }
 
 .catalog-infrastructure {
@@ -626,6 +637,89 @@ outline: 2px solid #82B3D3;
   width: 150.43px;
   height: 157px;
 }
+
+/* Range*/
+.catalog-filter-group {
+  border: none;
+}
+
+.catalog-filter-title{
+  padding-bottom: 32px;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  margin-bottom: 16px;
+  background-color: gray;
+  border-radius: 2px;
+}
+
+.range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 2px solid #242424;
+  border-radius: 25%;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background-color: #dbb590;
+}
+
+.range-toggle:active,
+.range-toggle:focus {
+  outline: 3px solid #dbb590;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
+
+.range-wrapper-inputs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+  }
+
+.catalog-filter-label {
+  display: flex;
+  margin-right: 5px;
+}
+
+.range-input {
+  width: 143px;
+  height: 48px;
+  padding: 0 2px;
+  font: inherit;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  appearance: textfield;
+  background-color: #ffffff;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+
 
 .button {
   display: flex;
