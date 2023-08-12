@@ -78,14 +78,25 @@ body {
   display: flex;
   width: 1200px;
   padding: 0;
-  padding-left: 30px;
+  padding-right: 30px;
   margin: 0;
   list-style: none;
 }
 
-.navigation-item {
-  padding-left: 15px;
+.navigation-item_1 {
+  margin-left: 30px;
   padding: 20px 16px;
+  margin-top: 4px;
+}
+
+.navigation-item_2 {
+  padding: 20px 16px;
+  margin-top: 4px;
+}
+
+.navigation-item_3 {
+  padding: 20px 16px;
+  margin-top: 4px;
 }
 
 .navigation-item1 {
@@ -103,6 +114,12 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 14px;
+  margin-left: 90px;
+}
+
+.navigation-item2 {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .navigation-user {
@@ -116,13 +133,14 @@ body {
   height: 485px;
   background-image: url("../images/images_index/index_background.jpg");
   background-repeat: no-repeat;
-  background-color: #ffffff;
+  background-color: #23A9E1;
   justify-content: center;
 }
 
 .main-container {
   display: flex;
   flex-grow: 1;
+  padding-top: 40px;
 }
 
 .navigation-link {
@@ -146,6 +164,7 @@ body {
   flex-wrap: wrap;
   padding: 70px 0;
   justify-content: center;
+  margin-top: -125px;
 }
 
 .heading2 {
@@ -178,6 +197,7 @@ body {
 
 .advantages-container {
   text-align: center;
+  margin-top: 30px;
 }
 
 .block {
@@ -301,7 +321,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   align-items: center;
-  /*надо вставить margin или pdding из макета*/
+  margin-top: 75px;
 }
 
 .services-list {
@@ -340,6 +360,7 @@ body {
 
 .subscribe {
   color: #ffffff;
+  background-color: #23A9E1;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -347,7 +368,7 @@ body {
   background-image: url(../images/images_index/mountain.jpg);
   background-size: cover;
   padding: 96px 258px 104px;
-  height: 414px;
+  min-height: 414px;
   text-transform: uppercase;
 }
 
@@ -358,10 +379,12 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-transform: none;
+  margin-top: 35px;
 }
 
 .subscribeformemail {
   display: flex;
+  margin-top: 50px;
 }
 
 .subscribeformemail1 {
@@ -381,7 +404,7 @@ body {
 
 .subscribeformemail2 {
   display: flex;
-  width: 452px;
+  width: 232px;
   height: 52px;
   padding: 12px 20px;
   gap: 260px;
@@ -394,20 +417,19 @@ body {
   background: #82B3D3;
   align-items: center;
   justify-content: center;
-}
-
-.subscribe3 {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 700;
 }
 
+.subscribe-form {
+  margin: 5px;
+}
+
 .subscribe2 {
   color: #000000;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
   text-align: center;
   background-image: none;
   background-size: 1200px 414px;
@@ -430,6 +452,7 @@ body {
   flex-direction: column;
   padding-bottom: 96px;
   align-items: center;
+  margin-top: 120px;
 }
 
 .buttonbasic {
@@ -472,6 +495,8 @@ body {
   list-style: none;
   text-decoration: none;
   gap: 26px;
+  padding-left: 3px;
+  margin-top: 15px;
 }
 
 .footer-social-list a:hover {
@@ -493,6 +518,8 @@ body {
   text-transform: uppercase;
   color: #000000;
   text-decoration: none;
+  margin-bottom: 10px;
+  margin-left: 5px;
 }
 
 .Heading_1 {
@@ -500,16 +527,17 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  line-height: 78px;
+  margin-top: 17px;
 }
 
 .inner-header {
   width: 1200px;
-  min-height: 412px;
+  height: 412px;
   background-image: url(../images/images_catalog/background_mountain.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
+  background-color: #23A9E1;
   font-weight: 700;
   padding: 35px 70px 70px 70px;
   box-sizing: border-box;
@@ -522,6 +550,7 @@ body {
 }
 
 .breadcrumbs {
+  display: flex;
   list-style: none;
   font-weight: 400;
   font-size: 16px;
@@ -612,6 +641,8 @@ body {
   list-style: none;
   width: 100%;
   gap: 40px;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 
 .catalog-infrastructure {
@@ -619,11 +650,11 @@ body {
   border: none;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
-  gap: 32px;
+  gap: 15px;
   width: 150.43px;
   height: 157px;
+  padding-top: 5px;
 }
 
 .product-top-group {
@@ -633,9 +664,11 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 32px;
+  gap: 15px;
   width: 150.43px;
   height: 157px;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 /* Range*/
@@ -644,7 +677,8 @@ body {
 }
 
 .catalog-filter-title {
-  padding-bottom: 32px;
+  padding-bottom: 20px;
+  padding-left: 80px;
 }
 
 .range-scale {
@@ -694,6 +728,7 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 48px;
+  padding-left: 60px;
 }
 
 .catalog-filter-label {
@@ -727,7 +762,8 @@ body {
   gap: 32px;
   width: 191px;
   list-style: none;
-  margin-left: 70px;
+  padding-right: 30px;
+  margin-top: 50px;
 }
 
 .button_submit {
@@ -770,7 +806,8 @@ body {
   display: flex;
   padding: 50px 70px;
   justify-content: space-between;
-
+  text-transform: uppercase;
+  padding-bottom: 11px;
 }
 
 .button-light .button-light1 {
@@ -808,7 +845,7 @@ body {
   line-height: 21px;
   cursor: pointer;
   border: 2px solid #E5E5E5;
-
+  margin-left: 110px;
 }
 
 /*.select-control1 {
@@ -825,6 +862,7 @@ body {
   gap: 20px;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 105px;
 }
 
 .holet-card {
@@ -832,11 +870,16 @@ body {
   display: flex;
 }
 
+.hotel-card-image {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
 .hotel_price {
   display: flex;
   gap: 20px;
   justify-content: space-between;
-  margin-bottom: 16px;
+  margin-bottom: -10px;
 }
 
 .hotel-card-link {
@@ -850,7 +893,8 @@ body {
   color: #000000;
   text-decoration: none;
   margin: 0;
-  margin-top: 16px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .hotel-card-price {
@@ -859,6 +903,7 @@ body {
   line-height: 21px;
   color: #333333;
   margin-top: 16px;
+  margin-left: 20px;
 }
 
 .hotel-card-type {
@@ -873,6 +918,7 @@ body {
   text-align: center;
   width: 140px;
   height: 36px;
+  margin-left: 20px;
 }
 
 .hotel-card-button {
@@ -887,13 +933,14 @@ body {
   text-align: center;
   width: 140px;
   height: 36px;
+  margin-left: 10px;
 }
 
 .raiting_catalog {
   display: flex;
   justify-content: space-between;
-  margin-top: 16px;
   align-items: center;
+  padding-left: 15px;
 }
 
 .raiting {
@@ -912,6 +959,8 @@ body {
   display: flex;
   list-style: none;
   margin: 0;
+  margin-left: 25px;
+  margin-bottom: 60px;
 }
 
 .pagination-item {
@@ -919,7 +968,7 @@ body {
   width: 60px;
   height: 60px;
   padding: 11.364px 0px 12.636px 0px;
-  margin: 0 8px;
+  margin: 0 3px;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
