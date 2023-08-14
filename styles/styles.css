@@ -69,7 +69,7 @@ body {
 .navigation {
   display: flex;
   width: 100%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .navigation-logo {}
@@ -141,6 +141,9 @@ body {
   display: flex;
   flex-grow: 1;
   padding-top: 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
 }
 
 .navigation-link {
@@ -164,7 +167,6 @@ body {
   flex-wrap: wrap;
   padding: 70px 0;
   justify-content: center;
-  margin-top: -125px;
 }
 
 .heading2 {
@@ -191,13 +193,13 @@ body {
   text-align: center;
   text-transform: none;
   height: 52px;
-  width: 592px;
   flex: none;
+  margin-top: inherit;
 }
 
 .advantages-container {
   text-align: center;
-  margin-top: 30px;
+  margin-top: -37px;
 }
 
 .block {
@@ -245,7 +247,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  margin: 0 auto;
+  margin: 21px auto;
 }
 
 .advantages-description {
@@ -321,7 +323,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   align-items: center;
-  margin-top: 75px;
+  margin-top: -40px;
 }
 
 .services-list {
@@ -384,7 +386,7 @@ body {
 
 .subscribeformemail {
   display: flex;
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 .subscribeformemail1 {
@@ -425,6 +427,7 @@ body {
 
 .subscribe-form {
   margin: 5px;
+  font-size: 30px;
 }
 
 .subscribe2 {
@@ -433,7 +436,7 @@ body {
   text-align: center;
   background-image: none;
   background-size: 1200px 414px;
-  padding: 96px 258px 104px;
+  padding: 100px 258px 104px;
   height: 414px;
   text-transform: uppercase;
 }
@@ -452,7 +455,7 @@ body {
   flex-direction: column;
   padding-bottom: 96px;
   align-items: center;
-  margin-top: 120px;
+  margin-top: -20px;
 }
 
 .buttonbasic {
@@ -468,7 +471,7 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   border: none;
-  margin-top: 54px;
+  margin-top: -10px;
   cursor: pointer;
 }
 
@@ -503,10 +506,13 @@ body {
   opacity: 1;
 }
 
+.footer-social-item a:hover {
+  opacity: 0.5;
+}
+
 .footer-social-list a:focus-visible {
   outline: 2px solid blue;
 }
-
 
 .contact {
   font-family: 'PT Sans';
@@ -520,6 +526,10 @@ body {
   text-decoration: none;
   margin-bottom: 10px;
   margin-left: 5px;
+}
+
+.contact:hover {
+  opacity: 0.5;
 }
 
 .Heading_1 {
@@ -541,6 +551,7 @@ body {
   font-weight: 700;
   padding: 35px 70px 70px 70px;
   box-sizing: border-box;
+  margin-top: -28px;
 }
 
 .legend {
@@ -854,7 +865,8 @@ body {
 */
 
 .hotel-list {
-  width: 1060px;
+  width: 1040px;
+  height: 900px;
   display: flex;
   margin-left: 70px;
   padding: 0;
@@ -865,14 +877,11 @@ body {
   margin-bottom: 105px;
 }
 
-.holet-card {
-  width: calc((100% - 40px) / 3);
-  display: flex;
-}
+.holet-card {}
 
 .hotel-card-image {
-  margin-left: 20px;
-  margin-top: 5px;
+  margin-left: 15px;
+  margin-top: 15px;
 }
 
 .hotel_price {
@@ -961,6 +970,8 @@ body {
   margin: 0;
   margin-left: 25px;
   margin-bottom: 60px;
+  margin-bottom: 54px;
+  margin-top: -28px;
 }
 
 .pagination-item {
