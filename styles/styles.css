@@ -208,7 +208,7 @@ body {
 }
 
 .block2 {
-  padding: 102px;
+  padding: 102px 80px;
 }
 
 .advantages-list {
@@ -437,8 +437,12 @@ body {
   background-image: none;
   background-size: 1200px 414px;
   padding: 100px 258px 104px;
-  height: 414px;
+  min-height: 414px;
   text-transform: uppercase;
+}
+
+.pictures1 {
+  object-fit: cover;
 }
 
 .subscribe-form_2 {
@@ -673,7 +677,6 @@ body {
   border: none;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   padding: 0px;
   gap: 15px;
   width: 150.43px;
@@ -745,6 +748,7 @@ body {
 .catalog-filter-label {
   display: flex;
   margin-right: 5px;
+  position: relative;
 }
 
 .range-input {
@@ -764,6 +768,14 @@ body {
   appearance: none;
   margin: 0;
 }
+
+.price_range {
+  position: absolute;
+  color:rgba(0, 0, 0, 0.3);
+  right: 10px;
+  top: 10px;
+}
+
 
 .button {
   display: flex;
@@ -830,16 +842,6 @@ body {
   background-color: #FFFFFF;
 }
 
-
-/*.button-light1 {
-  width: 48px;
-  height: 48px;
-  border: 2px solid #000000;
-  border-radius: 4px;
-  padding: 14px 12px;
-  background-color: #FFFFFF;
-}*/
-
 .select-catalog {
   width: 1200px;
   font-size: 30px;
@@ -858,11 +860,6 @@ body {
   border: 2px solid #E5E5E5;
   margin-left: 110px;
 }
-
-/*.select-control1 {
-  padding: 14px 20px;
-}
-*/
 
 .hotel-list {
   width: 1040px;
