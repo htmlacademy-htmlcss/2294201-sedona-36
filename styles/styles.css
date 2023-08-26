@@ -53,6 +53,10 @@ body {
   width: 1200px;
 }
 
+.icon_head {
+  display: block;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -69,10 +73,11 @@ body {
 .navigation {
   display: flex;
   width: 100%;
-  margin: 20px auto;
 }
 
-.navigation-logo {}
+.navigation-logo {
+  position: absolute;
+}
 
 .navigation-list {
   display: flex;
@@ -81,22 +86,25 @@ body {
   padding-right: 30px;
   margin: 0;
   list-style: none;
+  margin-left: 138px;
+}
+
+.navigation-item {
+  display: grid;
+  place-items: center;
 }
 
 .navigation-item_1 {
   margin-left: 30px;
   padding: 20px 16px;
-  margin-top: 4px;
 }
 
 .navigation-item_2 {
   padding: 20px 16px;
-  margin-top: 4px;
 }
 
 .navigation-item_3 {
   padding: 20px 16px;
-  margin-top: 4px;
 }
 
 .navigation-item1 {
@@ -165,7 +173,7 @@ body {
 .heading {
   display: flex;
   flex-wrap: wrap;
-  padding: 70px 0;
+  padding: 75px 0;
   justify-content: center;
 }
 
@@ -182,6 +190,13 @@ body {
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 25px;
+  line-height: 1.1;
+}
+
+.heading_services {
+  margin-top: 33px;
+  line-height: 1.1;
+  padding-bottom: 40px;
 }
 
 .heading-text {
@@ -203,12 +218,12 @@ body {
 }
 
 .block {
-  padding: 112px;
+  padding: 89px;
   text-align: center;
 }
 
 .block2 {
-  padding: 102px 80px;
+  padding: 82px;
 }
 
 .advantages-list {
@@ -248,6 +263,7 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   margin: 21px auto;
+  margin-bottom: 62px;
 }
 
 .advantages-description {
