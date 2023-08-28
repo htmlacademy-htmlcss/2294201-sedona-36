@@ -846,6 +846,7 @@ body {
   width: 191px;
   height: 36px;
   border: 0;
+  border-color: transparent;
   background-color: transparent;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -1056,3 +1057,96 @@ body {
 .subscribe {
   background-image: url("../images/images_index/mountain.jpg");
 }
+
+/*HOVER*/
+.button-blue:hover {
+  background-color: #68A2CA;
+}
+
+.button-blue:focus-visible {
+  background-color: #68A2CA;
+}
+
+.button-blue:active {
+  background-color: #68A2CA;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-brown:hover {
+  background-color: #615048;
+}
+
+.button-green:active {
+  background-color: #7DB54F;
+}
+
+.button-brown:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-brown:focus-visible {
+  background-color: #615048;
+}
+
+.button_reset:focus-visible {
+  border-color: blue;
+  border: 1px solid;
+}
+
+.select-control:focus {
+  border-color: #68A2CA;
+  border: 1px solid;
+}
+
+.a.contact:hover {
+  color: #756157;
+}
+
+.a.contact:focus {
+  color: #756157;
+}
+
+.a.contact:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.pagination-item:hover {
+  background-color: #68A2CA;
+}
+
+.pagination-item:focus {
+  background-color: #82B3D3;
+}
+
+.pagination-item:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-light1:hover {
+  border-color: #000000;
+  border: 2px solid;
+}
+
+.button-light1:focus {
+  border-color: #68A2CA;
+  border: 2px solid;
+}
+
+.button-light1:active {
+  border-color:#000000;
+  border: 2px solid;
+}
+
+.breadcrumbs-item:hover {
+color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-item:focus {
+  color:#FFFFFF;
+  }
+
+.breadcrumbs-item:active {
+  color: rgba(255, 255, 255, 0.3);
+  }
