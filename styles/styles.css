@@ -886,18 +886,18 @@ body {
 
 .sel_cat {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   margin-left: 70px;
 }
 
 .sel_cat2 {
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: 36px;
-text-transform: uppercase;
-margin-top: 27px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin-top: 27px;
 }
 
 .select-control {
@@ -1070,8 +1070,16 @@ margin-top: 27px;
 }
 
 .pagination-item a:hover:not(.active) {
-  background-color: #82B3D3;
+  background-color: #68A2CA;
 }
+
+.pagination-item:focus {
+  background-color: #68A2CA;
+}
+
+.pagination-link:active {
+  color: rgba(255, 255, 255, 0.3)
+  }
 
 .pagination-next {
   background-color: #FFFFFF;
@@ -1154,7 +1162,7 @@ margin-top: 27px;
 }
 
 .pagination-item:focus {
-  background-color: #82B3D3;
+  background-color: #68A2CA;
 }
 
 .pagination-item:active {
