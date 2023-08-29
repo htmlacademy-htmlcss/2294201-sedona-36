@@ -51,6 +51,7 @@ body {
 .page-header {
   padding: 0px 70px;
   width: 1200px;
+  margin-top: -4px;
 }
 
 .icon_head {
@@ -458,7 +459,7 @@ body {
   text-align: center;
   background-image: none;
   background-size: 1200px 414px;
-  padding: 100px 258px 104px;
+  padding: 100px 258px 90px;
   min-height: 414px;
   text-transform: uppercase;
 }
@@ -632,6 +633,7 @@ body {
 .control-input:focus+.check_box {
   outline: 2px solid #82B3D3;
 }
+
 
 /*RADIO*/
 
@@ -857,11 +859,13 @@ body {
 
 .catalog_search {
   display: flex;
-  padding: 50px 70px;
+  padding: 14px 70px;
   justify-content: space-between;
   text-transform: uppercase;
   padding-bottom: 11px;
   list-style: none;
+  gap: 74px;
+  margin-bottom: 10px;
 }
 
 .button-light .button-light1 {
@@ -882,6 +886,18 @@ body {
 
 .sel_cat {
   display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-left: 70px;
+}
+
+.sel_cat2 {
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+margin-top: 27px;
 }
 
 .select-control {
@@ -977,6 +993,21 @@ body {
   margin-left: 10px;
 }
 
+.button-green {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #7DB54F;
+  border-style: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 140px;
+  height: 36px;
+  margin-left: 10px;
+}
+
 .raiting_catalog {
   display: flex;
   justify-content: space-between;
@@ -1001,9 +1032,8 @@ body {
   list-style: none;
   margin: 0;
   margin-left: 25px;
-  margin-bottom: 60px;
   margin-bottom: 54px;
-  margin-top: -28px;
+  margin-top: -34px;
 }
 
 .pagination-item {
@@ -1076,6 +1106,14 @@ body {
   background-color: #615048;
 }
 
+.button-green:hover {
+  background-color: #6C9E42;
+}
+
+.button-green:focus {
+  background-color: #6C9E42;
+}
+
 .button-green:active {
   background-color: #7DB54F;
 }
@@ -1135,18 +1173,18 @@ body {
 }
 
 .button-light1:active {
-  border-color:#000000;
+  border-color: #000000;
   border: 2px solid;
 }
 
 .breadcrumbs-item:hover {
-color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .breadcrumbs-item:focus {
-  color:#FFFFFF;
-  }
+  color: #FFFFFF;
+}
 
 .breadcrumbs-item:active {
   color: rgba(255, 255, 255, 0.3);
-  }
+}
