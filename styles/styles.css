@@ -541,6 +541,30 @@ body {
   outline: 2px solid blue;
 }
 
+.social-button a:hover {
+  color: #68A2CA;
+}
+
+.social-button a:active {
+  color: rgba(104, 162, 202, 0.3);
+}
+
+.social-button a:focus {
+  color: #68A2CA
+}
+
+.html_button a:hover {
+color: #756157;
+}
+
+.html_button a:active {
+  color: rgba(117, 97, 87, 0.3);
+  }
+
+.html_button a:focus {
+  color: #756157;
+  }
+
 .contact {
   font-family: 'PT Sans';
   font-style: normal;
@@ -1079,7 +1103,7 @@ body {
 
 .pagination-link:active {
   color: rgba(255, 255, 255, 0.3)
-  }
+}
 
 .pagination-next {
   background-color: #FFFFFF;
