@@ -541,32 +541,37 @@ body {
   outline: 2px solid blue;
 }
 
-.social-button a:hover {
-  color: #68A2CA;
+.social-button {
+  color: #83B3D3
 }
 
-.social-button a:active {
-  color: rgba(104, 162, 202, 0.3);
-}
-
-.social-button a:focus {
+.social-button:hover {
   color: #68A2CA
 }
 
-.html_button a:hover {
-color: #756157;
+.social-button:focus {
+  color: #68A2CA
 }
 
-.html_button a:active {
-  color: rgba(117, 97, 87, 0.3);
-  }
+.social-button:active {
+  opacity: 0.3
+}
 
-.html_button a:focus {
+.html_button {
+  color: #000000;
+}
+
+.html_button:hover {
   color: #756157;
-  }
+}
 
-  .social {
-  color: blue;}
+.html_button:focus {
+  color: #756157;
+}
+
+.html_button:active {
+  color: rgba(117, 97, 87, 0.3);
+}
 
 .contact {
   font-family: 'PT Sans';
